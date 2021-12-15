@@ -1,3 +1,3 @@
 # Assignment.github.io
-#Open bin
-#Then open filehandlingAssignment
+#Open src/filehandlingAssignment
+#run fileHandlingdemo
