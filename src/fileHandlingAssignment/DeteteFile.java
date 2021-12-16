@@ -13,6 +13,9 @@ public class DeteteFile {
         if (fol.exists()){
             try {
                 fol.delete();
+                if (!fol.exists()) {
+					System.out.println("Folder Deleted Successfully");
+				}
             }catch (Exception e){
                 System.out.println("Error");
             }
